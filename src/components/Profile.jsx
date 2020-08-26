@@ -12,13 +12,13 @@ const Profile = () => {
 			<div>
 				my post
           		<div>
-					New post;
+					New posts;
           		<div>
 						<div>
-							post1
+							post3
          			</div>
 						<div>
-							post2
+							post4
           			</div>
 					</div>
 				</div>
