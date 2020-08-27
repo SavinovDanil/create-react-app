@@ -1,6 +1,6 @@
 .nav {
 	grid-area: n;
-	background-color:rgb(23, 160, 64);
+	/* background-color:rgb(241, 215, 215); */
 	padding: 20px;
 }
 
@@ -12,10 +12,10 @@
 }
 
 .item .active{
-	color: gold;
+	color: rgb(67, 207, 102);
 }
 
 .item :hover{
 	opacity: 0.8;
-	background-color:rgb(23, 160, 64)
+	/* background-color:rgb(23, 160, 64) */
 }

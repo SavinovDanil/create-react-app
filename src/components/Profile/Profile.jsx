@@ -8,7 +8,7 @@ const Profile = () => {
 			<div>
 				<img src='https://saletur.ru/galery/tfoto/big/043/73/437321.jpg'></img>
 			</div>
-			<div>
+			<div className = {s.user}>
 				Savinov D.
         	</div>
 			<MyPosts />

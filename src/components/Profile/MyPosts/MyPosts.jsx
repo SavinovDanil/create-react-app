@@ -6,7 +6,6 @@ const MyPosts = () => {
 	return (
 		<div>
 			<div>
-				my posts
           		<div>
 					<textarea ></textarea>
 					<button>Add post</button>
