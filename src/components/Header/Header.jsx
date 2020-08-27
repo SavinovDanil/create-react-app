@@ -4,7 +4,7 @@ import s from './Header.module.css'
 const Header = () => {
 	return (
 		<header className={s.header}>
-			<img src='https://static.rfstat.com/renderforest/images/v2/logo-homepage/gradient_2.png' />
+			<img src='https://upload.wikimedia.org/wikipedia/ru/2/2c/NAVI_logo.png' />
 		</header>
 	);
 }

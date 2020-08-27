@@ -1,8 +1,15 @@
 .nav {
 	grid-area: n;
-	background-color: #13CE66;
+	/* background-color: #16b152; */
+	background-color:rgb(23, 160, 64)
 }
 
 .item {
 	color:white;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.item :hover{
+	opacity: 0.8;
+	background-color:rgb(23, 160, 64)
 }
