@@ -22,7 +22,9 @@ let messages = [
   { id: 1, message: "Hi" },
   { id: 2, message: "How is you job" },
   { id: 3, message: "OO" },
+  { id: 4, message: "ee" },
 ]
+
 
 ReactDOM.render(
   <React.StrictMode>
