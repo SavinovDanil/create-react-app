@@ -25,3 +25,4 @@ let state = {
 }
 
 export default state
+let {}
