@@ -13,7 +13,8 @@ let state = {
 			{ id: 1, name: "Danich" },
 			{ id: 2, name: "Andrey" },
 			{ id: 3, name: "Vadik" },
-			{ id: 4, name: "Eleonora" }
+			{ id: 4, name: "Eleonora" },
+			{ id: 5, name: "Dimych" }
 		],
 		messages: [
 			{ id: 1, message: "Hi" },
@@ -25,6 +26,3 @@ let state = {
 }
 
 export default state
-let {
-	
-}
