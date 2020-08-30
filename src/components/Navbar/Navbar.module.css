@@ -19,3 +19,18 @@
 	opacity: 0.8;
 	/* background-color:rgb(23, 160, 64) */
 }
+
+.friends {
+	color:white;
+	padding: 10px;
+	font-size: 30px;
+	padding-top: 80px;
+}
+.name {
+	margin-top: 10px;
+
+}
+
+li::marker{
+	color:blue;
+}

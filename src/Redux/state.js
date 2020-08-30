@@ -21,10 +21,16 @@ let state = {
 			{ id: 3, message: "OO" },
 			{ id: 4, message: "ee" },
 		]
+	},
+	friend:{
+		friends: [
+			{ id: 1, name: "Danich" },
+			{ id: 2, name: "Andrey" },
+			{ id: 3, name: "Vadik" },
+			{ id: 4, name: "Eleonora" }
+		]
 	}
 }
 
+
 export default state
-let {
-	
-}

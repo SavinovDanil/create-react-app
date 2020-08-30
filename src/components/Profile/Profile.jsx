@@ -5,6 +5,8 @@ import ProfileInfo from './MyPosts/ProfileInfo/ProfileInfo';
 
 const Profile = (props) => {
 
+	console.log(props)
+
 	return (
 		<div>
 			<ProfileInfo />
