@@ -6,6 +6,7 @@
 
 .dialogsItems {
 	padding: 10px;
+	line-height: 31px;
 }
 
 .dialog a{
@@ -25,3 +26,7 @@
 	color: white;
 }
 
+.buttonMessage{
+	width: 30px;
+	height: 30px;
+}
