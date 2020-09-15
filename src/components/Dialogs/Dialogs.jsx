@@ -7,12 +7,12 @@ import { updateNewMessageBodyCreator, sendMessageCreator } from '../../Redux/sta
 
 const Dialogs = (props) => {
 
+	let state = props.store.getState().dialogsPage;
 
-	let dialogsElement = props.state.dialogs.map(d => <DialogItem name={d.name} id={d.id} />)
-	let messagesElement = props.state.messages.map(m => <Message message={m.message} />)
-	let newMessageBody = props.state.newMessageBody;
+	let dialogsElement = state.dialogs.map(d => <DialogItem name={d.name} id={d.id} />)
+	let messagesElement = state.messages.map(m => <Message message={m.message} />)
 
-	let addNewMessage = React.createRef()
+	let newMessageBody = state.newMessageBody;
 
 	let onSendMessageClick = () => {
 		props.store.dispatch(sendMessageCreator())
@@ -22,7 +22,6 @@ const Dialogs = (props) => {
 		let body = e.target.value;
 		props.store.dispatch(updateNewMessageBodyCreator(body))
 	}
-
 	return (
 		<div className={s.dialogs}>
 			<div className={s.dialogsItems}>
@@ -35,7 +34,7 @@ const Dialogs = (props) => {
 						<textarea value={newMessageBody}
 							onChange={onNewMessageChange}
 							placeholder='Enter your message'
-							ref={addNewMessage} ></textarea></div>
+						></textarea></div>
 					<div><button onClick={onSendMessageClick} className='buttonMessage' type="submit">Send</button></div>
 				</div>
 			</div>

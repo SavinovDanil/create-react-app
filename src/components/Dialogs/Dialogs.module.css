@@ -3,12 +3,6 @@
 	grid-template-columns: 1fr 10fr;
 	padding: 10px;
 }
-
-.dialogsItems {
-	padding: 10px;
-	line-height: 31px;
-}
-
 .dialog a{
 	color:white;
 	text-decoration: none;
@@ -18,9 +12,7 @@
 	color:rgb(67, 207, 102);
 }
 
-.messages {
-	padding: 10px;
-} 
+
 
 .message{
 	color: white;
