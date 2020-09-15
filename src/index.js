@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import store from './Redux/state'
 import './index.css';
 
-let callSubscriber = (state) => {
+let rerenderEntireTree = (state) => {
 	ReactDOM.render(
 		<React.StrictMode>
 			<App state={state}
@@ -17,9 +17,9 @@ let callSubscriber = (state) => {
 }
 
 
-callSubscriber(store.getState())
+rerenderEntireTree(store.getState())
 
-store.subscribe(callSubscriber)
+store.subscribe(rerenderEntireTree)
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -9,9 +9,9 @@ const Message = (props) => {
 		let message = addNewMessage.current.value
 		alert(message);
 	}
-
 	console.log(props)
 	return (
+	<div className={s.message}>{props.message}</div>
 		<div className={s.message}>
 		<textarea ref={addNewMessage} rows="1" cols="10"></textarea>
 		<button onClick = {addMessage} className='buttonMessage' type="submit">addMessage</button>
@@ -22,5 +22,3 @@ const Message = (props) => {
 }
 
 export default Message;
-
-// {props.message}
