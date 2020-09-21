@@ -19,11 +19,9 @@ const App = (props) => {
                 <div className='app-wrapper-content'>
                     <Route path='/profile'
                            render={() => <Profile
-                               store={props.store}
                            />}/>
                     <Route path='/dialogs'
                            render={() => <DialogsContainer
-                               store={props.store}
                            />}/>
                     {/* <Route path='/News' render={() => <News />} />
           <Route path='/Music' render={() => <Music />} />
