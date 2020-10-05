@@ -1,18 +1,26 @@
+*{
+    color: white;
+}
+
+textarea {
+    background-color: #15202B;
+}
+
 .app-wrapper {
-  background-color: #15202B;
-  margin: 0 auto;
-  display: grid;
-  max-width: 100%;
-  grid-template-areas:
+    background-color: #15202B;
+    margin: 0 auto;
+    display: grid;
+    max-width: 100%;
+    grid-template-areas:
     "h h"
     "n c";
-  grid-template-rows: 100px 1fr;
-  grid-template-columns: 2fr 10fr;
-  width: 100%;
-  background-position: center;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 2fr 10fr;
+    width: 100%;
+    background-position: center;
 }
 
 .app-wrapper-content {
-  grid-area: c;
+    grid-area: c;
 }
 

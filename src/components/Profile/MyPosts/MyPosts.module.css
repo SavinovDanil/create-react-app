@@ -1,6 +1,11 @@
 div button {
-	background-color: greenyellow;
+	background-color: darkcyan;
 	border-radius: 10px;
 	border-width: 1px;
 	margin-bottom: 10px;
+}
+
+
+textarea {
+	/*background-color: #15202B;*/
 }
