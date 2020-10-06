@@ -5,4 +5,14 @@ img {
 
 .user {
 	font-size: 20px;
+	display: flex;
+}
+
+.info {
+
+}
+
+li {
+	padding-bottom: 10px;
+	list-style-type: none;
 }
